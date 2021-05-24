@@ -59,6 +59,7 @@ params:
         label: DEV
         url: 'https://dev.to/'
         new_window: true
+  domain: 'https://curious-mustard-b5014.netlify.app'
 taxonomies:
   stub: stub
 disableKinds:
