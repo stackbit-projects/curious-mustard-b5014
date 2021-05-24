@@ -1,0 +1,33 @@
+---
+label: Posts Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Section Title
+  description: >-
+    The section title (Used by the CMS, even if it is not displayed in the
+    section)
+- type: text
+  name: section_id
+  label: Element ID
+  description: >-
+    A unique identifier that can be used when linking to this section. Must not
+    contain whitespace.
+- type: boolean
+  name: has_more_link
+  label: Show read more link
+  description: Display the read more link below the post excerpt
+  default: true
+- type: text
+  name: more_link_text
+  label: Read more link label
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: section_posts
+  config:
+    required: true

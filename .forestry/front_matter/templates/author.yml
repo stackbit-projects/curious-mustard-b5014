@@ -1,0 +1,19 @@
+---
+label: Author
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: Name
+- type: text
+  name: email
+  label: Email
+- type: file
+  name: avatar
+  label: Author Image
+- type: text
+  name: avatar_alt
+  label: Author Image Alt Text
+  description: The alt text of the author image
+pages:
+- data/author.json
