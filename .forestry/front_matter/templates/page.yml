@@ -28,6 +28,6 @@ fields:
   config:
     required: true
 pages:
-- elements.md
-- generic.md
-- ipsum.md
+- content/elements.md
+- content/generic.md
+- content/ipsum.md

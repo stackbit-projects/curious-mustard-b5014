@@ -6,15 +6,13 @@ fields:
 - type: text
   name: title
   label: Section Title
-  description: >-
-    The section title (Used by the CMS, even if it is not displayed in the
-    section)
+  description: The section title (Used by the CMS, even if it is not displayed in
+    the section)
 - type: text
   name: section_id
   label: Element ID
-  description: >-
-    A unique identifier that can be used when linking to this section. Must not
-    contain whitespace.
+  description: A unique identifier that can be used when linking to this section.
+    Must not contain whitespace.
 - type: file
   name: image
   label: Image

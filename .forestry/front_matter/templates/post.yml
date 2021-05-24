@@ -53,6 +53,6 @@ fields:
   config:
     required: true
 pages:
-- posts/magna.md
-- posts/sed.md
-- posts/tellus.md
+- content/posts/magna.md
+- content/posts/sed.md
+- content/posts/tellus.md
